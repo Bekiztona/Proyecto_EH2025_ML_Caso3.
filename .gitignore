@@ -1,0 +1,28 @@
+# Microdatos y archivos sensibles
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+
+# Modelos y archivos grandes
+outputs/models/*
+!outputs/models/.gitkeep
+*.pkl
+*.joblib
+*.sav
+*.dta
+*.rar
+*.zip
+*.7z
+
+# Archivos temporales
+*.log
+.env
